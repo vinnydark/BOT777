@@ -1,0 +1,21 @@
+Comandos bot do pacoca termux
+
+
+$ termux-setup-storage
+
+$ pkg install git -y && pkg install nodejs -y && pkg install wget -y && pkg install libwebp -y && pkg install ffmpeg -y && pkg install pm2 -y
+
+$ cp  -r /sdcard/Download/pofbot2.0 /data/data/com.termux/files/home
+
+$ cd kazutobotV4-main
+
+$ bash install.sh
+
+$ npm i -g pm2
+
+$ pm2 start index.js
+
+$ pm2 monit
+
+
+O zip do download baixe e extraia para pasta download do teu celular não e só apenas para baixar tbm extrair
